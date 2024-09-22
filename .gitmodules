@@ -1,0 +1,6 @@
+[submodule "client"]
+	path = client
+	url = https://github.com/victors3136/Part-of-Speech-Coloriser.git
+[submodule "server"]
+	path = server
+	url = https://github.com/victors3136/Django-English-Parser.git
