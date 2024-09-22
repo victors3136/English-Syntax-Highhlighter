@@ -1,4 +1,3 @@
-:: Check if virtual environment folder exists, if not, create one
 IF NOT EXIST "server\venv\" (
     echo Creating Python virtual environment...
     cd server
@@ -13,7 +12,6 @@ IF NOT EXIST "server\venv\" (
     cd ..
 )
 
-:: Install client dependencies
 echo Installing client dependencies...
 cd client
 npm install
